@@ -1,0 +1,22 @@
+{
+  "name": "baitguard",
+  "version": "0.0.1",
+  "description": "Engagement bait and karma farm detection tool for Reddit moderators. Automatically detects and actions posts using DM bait, upvote bait, fake giveaways, and other engagement farming tactics.",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test": "tsx src/test-patterns.ts",
+    "dev": "devvit playtest",
+    "upload": "devvit upload"
+  },
+  "dependencies": {
+    "@devvit/public-api": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.4.0"
+  }
+}
